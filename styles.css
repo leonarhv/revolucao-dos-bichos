@@ -6,21 +6,29 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #FEEAA5;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    max-height: 50vh;
+    object-fit: cover;
 }
 
 .container {
     text-align: center;
+    padding: 20px;
+    margin-top: 10px;
 }
 
 h1 {
     margin-bottom: 20px;
     font-size: 2em;
-    color: #333;
+    color: #724833;
 }
 
 .link-buttons {
@@ -33,14 +41,15 @@ h1 {
     display: block;
     padding: 15px 25px;
     text-decoration: none;
-    color: #fff;
-    background-color: #007BFF;
+    color: #724833;
+    background-color: #FFDA65;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 .link-button:hover {
-    background-color: #0056b3;
+    background-color: #FEEAA5;
+    border: 1px solid #A68A82;
 }
 
 @media (min-width: 600px) {
